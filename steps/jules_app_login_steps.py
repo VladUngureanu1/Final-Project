@@ -4,3 +4,29 @@ from behave import *
 @given("The user is on the Jules_app homepage")
 def step_impl(context):
     context.login_page.navigate_to_homepage()
+
+@When("The user inserts valid Email and valid Password")
+def step_impl(context):
+    context.login_page.insert_username()
+    context.login_page.insert_password()
+
+@When("The user clicks on the login button")
+def step_impl(context):
+    context.login_page.click_login_button()
+
+@Then("The user is logged into the application")
+def step_impl(context):
+    context.login_page.check_current_url()
+
+@When('The user inserts  username "<Email>" and  password "<Password>"')
+def step_impl(context, email, password):
+    try:
+        context.home_page.logout_of_the_application()
+    except:
+        pass
+    context.login_page.insert_username(email)
+    context.login_page.insert_password(password)
+
+# @Then('The user receives error message "{error_message}" and cannot login into the application')
+# def step_impl(context,error_message):
+#     context.login_page.check_error_message(error_message)
