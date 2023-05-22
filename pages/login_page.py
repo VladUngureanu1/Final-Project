@@ -31,6 +31,8 @@ class LoginPage(BasePage):
         expected_url = 'https://jules.app/search/all'
         assert expected_url == actual_url, f'The url is incorrect. Please check the login functionality'
 
-    def check_error_message(self, error_message):
-        actual_error_message = self.chrome.find_element(*self.LOGIN_ERROR_MESSAGE).text
-        assert error_message == actual_error_message, f'Error, the login message is incorrect. Expected: {error_message}, actual:{actual_error_message}'
+
+    def check_login_error_message(self, expected_error_message):
+        self.check_error_message(*self.LOGIN_ERROR_MESSAGE, expected_error_message)
+
+

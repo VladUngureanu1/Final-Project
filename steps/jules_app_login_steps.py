@@ -1,7 +1,10 @@
+import time
+from time import sleep
+
 from behave import *
 
 
-@given("The user is on the Jules_app homepage")
+@given("The user is on the Jules_app login page")
 def step_impl(context):
     context.login_page.navigate_to_homepage()
 
@@ -17,6 +20,8 @@ def step_impl(context):
 @Then("The user is logged into the application")
 def step_impl(context):
     context.login_page.check_current_url()
+    time.sleep(5)
+
 
 @When('The user inserts  username "<Email>" and  password "<Password>"')
 def step_impl(context, email, password):
@@ -27,6 +32,6 @@ def step_impl(context, email, password):
     context.login_page.insert_username(email)
     context.login_page.insert_password(password)
 
-# @Then('The user receives error message "{error_message}" and cannot login into the application')
-# def step_impl(context,error_message):
-#     context.login_page.check_error_message(error_message)
+@Then('The user receives error message "{error_message}" and cannot login into the application')
+def step_impl(context, error_message):
+    context.login_page.check_error_message(error_message)

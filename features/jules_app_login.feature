@@ -1,7 +1,7 @@
 Feature: Check that the login functionality of the Jules_app website is working properly
 
   Background:
-    Given The user is on the Jules_app homepage
+    Given The user is on the Jules_app login page
 
   @T1 @positiveTesting
   Scenario: Check that the user can login into the application when inserting valid credentials
