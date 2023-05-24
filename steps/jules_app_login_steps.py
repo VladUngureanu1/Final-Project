@@ -22,8 +22,11 @@ def step_impl(context):
     context.login_page.check_current_url()
     time.sleep(5)
 
+@When("The user logs out of the application")
+def step_impl(context):
+    context.login_page
 
-@When('The user inserts  username "<Email>" and  password "<Password>"')
+@When('The user inserts  username "{email}" and  password "{password}"')
 def step_impl(context, email, password):
     try:
         context.home_page.logout_of_the_application()

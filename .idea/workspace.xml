@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d833587a-11ca-4092-bf20-d1fd24beafdf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/behave-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behave-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/behave-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/jules_app_login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/jules_app_login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/jules_app_search_items.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/jules_app_search_items.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/jules_app_homepage_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/jules_app_homepage_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/steps/jules_app_login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/jules_app_login_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +34,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -61,7 +63,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Catalina/PycharmProjects/TA39/Automation39",
+    "last_opened_file_path": "C:/Users/Catalina/PycharmProjects/FinalProjectBDD",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>

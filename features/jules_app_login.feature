@@ -29,6 +29,7 @@ Feature: Check that the login functionality of the Jules_app website is working 
 
   @T5
   Scenario Outline: Check that the user cannot login into the application when inserting invalid credentials
+    When  The user logs out of the application
     When  The user inserts  username "<Email>" and  password "<Password>"
     When  The user clicks on the login button
     Then  The user receives error message "Invalid email/password combination" and cannot login into the application

@@ -5,9 +5,9 @@ def step_impl(context):
     context.login_page.navigate_to_homepage()
 
 
-@When('User clicks on the Search field')
+@When('User clicks on the search field')
 def step_impl(context):
-    context.home_page.click_search_grid()
+    context.home_page.click_search_field()
 
 
 @When('User inserts a valid item "vlad"')
@@ -20,10 +20,10 @@ def step_impl(context):
     context.home_page.click_search_button()
 
 
-@Then('the corresponding item "vlad" is returned')
-def step_impl(context, valid_item):
-    context.home_page.check_valid_item(valid_item)
+@Then('the corresponding "{search_item}" is returned')
+def step_impl(context, search_item):
+    context.home_page.check_valid_item(search_item)
 
-@When('User inserts special characters "!@#$%^&*" into search field')
+@When('User inserts special characters "{special_characters}" into the search field')
 def step_impl(context, special_characters):
-    context.home_page.insert_special_characters()
+    context.home_page.insert_special_characters(special_characters)
