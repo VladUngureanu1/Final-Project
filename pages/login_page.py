@@ -1,12 +1,9 @@
 import time
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from pages.base_page import BasePage
-
-
 class LoginPage(BasePage):
 
     USERNAME = (By.XPATH, '//input[@placeholder="Enter your email"]')
@@ -16,13 +13,6 @@ class LoginPage(BasePage):
     ACCOUNT_DROPDOWN = (By.XPATH, '//*[@data-test-id="user-options-business-button"]')
     LOGOUT_LINK = (By.LINK_TEXT, 'Logout')
     SEARCH_FIELD = (By.XPATH, '//input[@placeholder="Type and Search..."]')
-
-    def logout_of_the_application(self):
-        self.chrome.find_element(*self.ACCOUNT_DROPDOWN).click()
-        self.chrome.find_element(*self.LOGOUT_LINK).click()
-
-    def click_search_grid(self):
-        self.chrome.find_element(*self.SEARCH_FIELD).click()
 
     def navigate_to_homepage(self):
         self.chrome.get("https://jules.app/sign-in")

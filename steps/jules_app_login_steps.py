@@ -2,8 +2,6 @@ import time
 from time import sleep
 
 from behave import *
-
-
 @given("The user is on the Jules_app login page")
 def step_impl(context):
     context.login_page.navigate_to_homepage()

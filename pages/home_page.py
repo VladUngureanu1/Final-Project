@@ -16,7 +16,7 @@ class HomePage(BasePage):
 
 
     def click_search_field(self):
-        self.chrome.find_element(*self.SEARCH_FIELD).click()
+        self.chrome.find_element((self.SEARCH_FIELD).click)
 
     def insert_element(self, insert_element='vlad'):
         element=(self.SEARCH_BUTTON)
