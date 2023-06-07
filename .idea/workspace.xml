@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d833587a-11ca-4092-bf20-d1fd24beafdf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/steps/add_person_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behave-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/behave-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/browser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behave-report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/juless_app_add_module.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/juless_app_add_person.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/add_user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/add_person_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/jules_app_login_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/jules_app_login_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/people_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/add_module_steps.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
